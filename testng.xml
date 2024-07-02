@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="public WebSockets suite" verbose="1" >
+
+    <test name="WebSocket Spread Test" >
+        <classes>
+            <class name="com.kraken.websockets.tests.publicMessages.WebsocketSpreadTest" />
+        </classes>
+    </test>
+
+</suite>
